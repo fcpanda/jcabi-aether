@@ -38,7 +38,7 @@
 
 Aether adapter for Maven plugins
 
-  {{{https://docs.sonatype.org/display/AETHER/Home}Aether}} is a dependency
+  {{{https://docs.eclipse.org/display/AETHER/Home}Aether}} is a dependency
   management toolkit for Maven repositories. It is very convenient to use Aether
   in your Maven plugins, when it's necessary to find a location of certain
   artifact or find out what transitive dependencies it contains. This <<<jcabi-aether>>>
@@ -52,10 +52,10 @@ Aether adapter for Maven plugins
 import com.jcabi.aether.Aether;
 import java.io.File;
 import org.apache.maven.plugin.AbstractMojo;
-import org.sonatype.aether.RepositorySystemSession;
-import org.sonatype.aether.artifact.Artifact;
-import org.sonatype.aether.util.artifact.DefaultArtifact;
-import org.sonatype.aether.util.artifact.JavaScopes;
+import org.eclipse.aether.RepositorySystemSession;
+import org.eclipse.aether.artifact.Artifact;
+import org.eclipse.aether.util.artifact.DefaultArtifact;
+import org.eclipse.aether.util.artifact.JavaScopes;
 
 public class MyMojo extends AbstractMojo {
   /**
@@ -85,9 +85,9 @@ import com.jcabi.aether.Aether;
 import java.io.File;
 import java.util.Arrays;
 import org.apache.maven.project.MavenProject;
-import org.sonatype.aether.artifact.Artifact;
-import org.sonatype.aether.repository.RemoteRepository;
-import org.sonatype.aether.util.artifact.DefaultArtifact;
+import org.eclipse.aether.artifact.Artifact;
+import org.eclipse.aether.repository.RemoteRepository;
+import org.eclipse.aether.util.artifact.DefaultArtifact;
 
 public class Main {
   public static void main(String[] args) {

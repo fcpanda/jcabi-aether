@@ -21,10 +21,10 @@ This is how you find out the location of a `junit:junit-dep:4.10` artifact:
 import com.jcabi.aether.Aether;
 import java.io.File;
 import org.apache.maven.plugin.AbstractMojo;
-import org.sonatype.aether.RepositorySystemSession;
-import org.sonatype.aether.artifact.Artifact;
-import org.sonatype.aether.util.artifact.DefaultArtifact;
-import org.sonatype.aether.util.artifact.JavaScopes;
+import org.eclipse.aether.RepositorySystemSession;
+import org.eclipse.aether.artifact.Artifact;
+import org.eclipse.aether.util.artifact.DefaultArtifact;
+import org.eclipse.aether.util.artifact.JavaScopes;
 
 public class MyMojo extends AbstractMojo {
   /**

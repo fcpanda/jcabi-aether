@@ -35,7 +35,7 @@ import lombok.EqualsAndHashCode;
 import lombok.ToString;
 import org.apache.maven.wagon.Wagon;
 import org.kuali.maven.wagon.S3Wagon;
-import org.sonatype.aether.connector.wagon.WagonProvider;
+import org.eclipse.aether.connector.wagon.WagonProvider;
 
 /**
  * Builder of {@link RepositorySystem} class.

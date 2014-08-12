@@ -36,19 +36,19 @@ import lombok.ToString;
 import org.apache.maven.repository.internal.DefaultArtifactDescriptorReader;
 import org.apache.maven.repository.internal.DefaultVersionRangeResolver;
 import org.apache.maven.repository.internal.DefaultVersionResolver;
-import org.sonatype.aether.RepositorySystem;
-import org.sonatype.aether.connector.async.AsyncRepositoryConnectorFactory;
-import org.sonatype.aether.connector.file.FileRepositoryConnectorFactory;
-import org.sonatype.aether.connector.wagon.PlexusWagonConfigurator;
-import org.sonatype.aether.connector.wagon.WagonConfigurator;
-import org.sonatype.aether.connector.wagon.WagonProvider;
-import org.sonatype.aether.connector.wagon.WagonRepositoryConnectorFactory;
-import org.sonatype.aether.impl.ArtifactDescriptorReader;
-import org.sonatype.aether.impl.VersionRangeResolver;
-import org.sonatype.aether.impl.VersionResolver;
-import org.sonatype.aether.impl.internal.DefaultRepositorySystem;
-import org.sonatype.aether.impl.internal.DefaultServiceLocator;
-import org.sonatype.aether.spi.connector.RepositoryConnectorFactory;
+import org.eclipse.aether.RepositorySystem;
+import org.eclipse.aether.connector.async.AsyncRepositoryConnectorFactory;
+import org.eclipse.aether.connector.file.FileRepositoryConnectorFactory;
+import org.eclipse.aether.internal.connector.wagon.PlexusWagonConfigurator;
+import org.eclipse.aether.connector.wagon.WagonConfigurator;
+import org.eclipse.aether.connector.wagon.WagonProvider;
+import org.eclipse.aether.connector.wagon.WagonRepositoryConnectorFactory;
+import org.eclipse.aether.impl.ArtifactDescriptorReader;
+import org.eclipse.aether.impl.VersionRangeResolver;
+import org.eclipse.aether.impl.VersionResolver;
+import org.eclipse.aether.internal.impl.DefaultRepositorySystem;
+import org.eclipse.aether.impl.DefaultServiceLocator;
+import org.eclipse.aether.spi.connector.RepositoryConnectorFactory;
 
 /**
  * Builder of {@link RepositorySystem} class.

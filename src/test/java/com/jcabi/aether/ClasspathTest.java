@@ -40,8 +40,8 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TemporaryFolder;
 import org.mockito.Mockito;
-import org.sonatype.aether.repository.RemoteRepository;
-import org.sonatype.aether.util.artifact.JavaScopes;
+import org.eclipse.aether.repository.RemoteRepository;
+import org.eclipse.aether.util.artifact.JavaScopes;
 
 /**
  * Test case for {@link Classpath}.
